@@ -1,0 +1,8 @@
+async function js(){
+    return Promise.resolve("Hi");
+    
+} 
+async function display(){
+    let result=await js();
+    console.log(result);
+}

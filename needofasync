@@ -27,7 +27,7 @@ function processRequest(response) {
 //in async await way
    async function doWork(){
     try{
-    const response=await makeRequest('Facebook');
+    const response=await makeRequest('Google');
     console.log("Response Received");
     const processResponse=await processRequest(response)
     console.log(processResponse)
@@ -37,3 +37,5 @@ function processRequest(response) {
 
    }
    doWork();
+
+   
